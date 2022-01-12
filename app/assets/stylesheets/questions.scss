@@ -1,3 +1,83 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1 {
+  font-family: Poppins;
+  margin: 0px;
+}
+
+.container {
+  padding-left: 24px;
+  padding-bottom: 24px;
+  width: 560px;
+  margin: 0px;
+}
+
+.box-question {
+  border-left: 6px solid #C6C6C6;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin: 0px;
+}
+
+.sender {
+  font-style: italic;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+.box-answer {
+  background-color: #FFFFE1;
+  border-left: 6px solid #C6C6C6;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.answer {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.headline {
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #6EA0D8;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.link {
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 24px;
+}
+
+.subheadline {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.input {
+  margin-right: 8px;
+}
